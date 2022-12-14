@@ -1,13 +1,18 @@
-<template>
-  <p>Formik</p>
-</template>
-
 <script>
-export default {
+import Formik from './components/Formik.vue'
 
+
+export default {
+  components: {
+    Formik
+  }
 }
 </script>
 
-<style>
-
-</style>
+<template>
+  <h1>App</h1>
+  <div>
+    <Formik/>
+  </div>
+  
+</template>
